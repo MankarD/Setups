@@ -2,18 +2,22 @@
 Java Tools And Setups
 
 ELK Stack
-Video : https://youtu.be/n2HHAvpn6Jo
+**Video : https://youtu.be/n2HHAvpn6Jo**
+
 ELK is the combination of 3 open source products
 
-Elastic Search : It is used to store and process logs
-Logstash : It is used to collect application logs and store in Elastic Search
-Kibana : It will provide user interface to monitor application logs
-ELK Setup
+1. Elastic Search : It is used to store and process logs
+2. Logstash : It is used to collect application logs and store in Elastic Search
+3. Kibana : It will provide user interface to monitor application logs
+
+
+**1. ELK Setup**
 Download ELK Softwares
 
-Elastic Search : https://www.elastic.co/downloads/elasticsearch
-Kibana : https://www.elastic.co/downloads/kibana
-Logstash : https://www.elastic.co/downloads/logstash
+**Elastic Search : https://www.elastic.co/downloads/elasticsearch**
+**Kibana : https://www.elastic.co/downloads/kibana**
+**Logstash : https://www.elastic.co/downloads/logstash**
+
 Extract all zip files
 
 Run elasticsearch using elasticsearch.bat file (make sure all security settings disable in elasticsearch.yml before running)
