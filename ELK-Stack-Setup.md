@@ -23,13 +23,14 @@ Extract all zip files
 1. Run elasticsearch using elasticsearch.bat file (make sure all security settings disable in elasticsearch.yml before running)
 
 
- elasticsearch.bat
+elasticsearch.bat
 
 
 Check Elastic Search Running or not (URL : http://localhost:9200/ )
 
 
 2. Run kibana using kibana.bat file (before running kibana, enable elasticsearch url in kibana.yml file)
+
 
 kibana.bat
 
@@ -56,7 +57,10 @@ output {
 
 
 Run logstash server using below command
+
+
 logstash -f logstash.conf
+
 
 Check logstash server is running or not ( http://localhost:9600 )
 
